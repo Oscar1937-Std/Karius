@@ -17,17 +17,19 @@
         <a class="hamburger" ><i class="fa-solid fa-bars"></i></a>
         <div class="menu">
             <a href="#home">Home</a>
-            <a href="#news">News</a>
+            <a href="#faq">FAQ</a>
             <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+            <a href="#about">About Us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
         </div>
     </div> 
 
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="hero_inner">
             <h1>Vigilancia Aérea Constante</h1>
             <h2>Con sus planeadores autónomos y cámaras térmicas, monitorea incansablemente las áreas forestales, anticipándose a los incendios antes de que estos ocurran.</h2> 
-            <a href="https://example.com" class="btn">Empezar</a>
+            <a href="#start" class="btn">Empezar</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunctionII()"></a>
         </div>
     </section>
 
@@ -35,7 +37,7 @@
 
     <main>
 
-        <div class="visionMision">
+        <div class="visionMision" id="start">
             <div class="misionVisionDiv">
                 <h2>Visión</h2>
                 <p>Convertirnos en un referente dentro de nuestra comunidad y áreas aledañas en el uso de tecnologías autónomas para la prevención y detección temprana de incendios forestales.</p>
@@ -71,9 +73,9 @@
         </div>
         
 
-        <div class="productPlacement">
+        <div class="productPlacement" >
             <div class="gallery-item">
-                <img src="https://picsum.photos/500/500" alt="Imagen 4">
+                <img src="https://picsum.photos/500/500" alt="Imagen 1">
             </div>
 
             <div class="kariusDiv">
@@ -83,7 +85,7 @@
         </div>
 
 
-        <section class="about-us">
+        <section class="about-us" id="about">
             <h1>Sobre Nosotros</h1>
             <div class="team">
                 <div class="team-member">
@@ -111,7 +113,7 @@
 
         <h2>Preguntas Frecuentes</h2>
 
-        <div class="preguntasFrecuentes">
+        <div class="preguntasFrecuentes" id="faq">
             <div class="pregunta">
                 <button class="accordion">Es legal en toda la república?</button>
                 <div class="panel">
@@ -138,7 +140,7 @@
             </div>
         </div>
 
-        <div class="contact-container">
+        <div class="contact-container" id="contact">
             <div class="contact-info">
                 <h2>Contacto</h2>
                 <p>Tel: +52 341 159 4022</p>
@@ -237,6 +239,18 @@
                 }
             });
         }
+
+        function myFunction() 
+            {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+
+
     </script>
 </body>
 </html>
