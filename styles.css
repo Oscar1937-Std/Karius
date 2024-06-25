@@ -448,6 +448,11 @@ i
 
 @media screen and (max-width: 600px)
 {
+    .topnav
+    {
+        overflow-y: hidden;
+        height: 50px;
+    }
     .topnav a
     {
         font-size: 1em;
