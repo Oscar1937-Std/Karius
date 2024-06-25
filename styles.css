@@ -453,6 +453,10 @@ i
         overflow-y: hidden;
         height: 50px;
     }
+    .topnav .menu
+    {
+        display: none;
+    }
     .topnav a
     {
         font-size: 1em;
