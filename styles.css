@@ -517,8 +517,13 @@ i
     .gallery-item{
         width: 80%;
     }
+    
     .productPlacement{
         display: block;
+    }
+    .kariusDiv p
+    {
+        font-size: 1rem;
     }
 
     .preguntasFrecuentes
