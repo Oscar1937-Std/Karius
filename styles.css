@@ -41,7 +41,7 @@ i
 
 .topnav .menu
 {
-    display: none;
+    display: block;
 }
 
 .topnav .logo
@@ -468,6 +468,11 @@ i
         float: none;
         display: block;
         text-align: left;
+    }
+
+    .topnav .menu
+    {
+        display: none;
     }
 
 
